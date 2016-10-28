@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RocketPermissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultGroup>default</DefaultGroup>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Default</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>white</Color>
+      <Members />
+      <Permissions>
+        <Permission Cooldown="0">p</Permission>
+        <Permission Cooldown="0">rocket</Permission>
+        <Permission Cooldown="0">tpa</Permission>
+        <Permission Cooldown="0">buy</Permission>
+        <Permission Cooldown="0">sell</Permission>
+        <Permission Cooldown="0">pay</Permission>
+        <Permission Cooldown="0">cost</Permission>
+        <Permission Cooldown="0">balance</Permission>
+        <Permission Cooldown="0">tpa.send</Permission>
+        <Permission Cooldown="0">tpa.accept</Permission>
+        <Permission Cooldown="0">reward</Permission>
+        <Permission Cooldown="0">kit.starter</Permission>
+        <Permission Cooldown="0">vote</Permission>
+        <Permission Cooldown="0">rules</Permission>
+        <Permission Cooldown="0">kits</Permission>
+        <Permission Cooldown="0">deathmessage</Permission>
+        <Permission Cooldown="0">abuse.isgod</Permission>
+        <Permission Cooldown="0">abuse.isvanish</Permission>
+        <Permission Cooldown="0">thepunisher.report</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>elite</Id>
+      <DisplayName>Elite</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>ff5c33</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+        <Permission Cooldown="0">effect</Permission>
+        <Permission Cooldown="1800">home</Permission>
+        <Permission Cooldown="0">kit.elite</Permission>
+        <Permission Cooldown="0">kit.elitexp</Permission>
+        <Permission Cooldown="0">kit.uber</Permission>
+        <Permission Cooldown="0">kit.policecar</Permission>
+        <Permission Cooldown="0">kit.salesman</Permission>
+        <Permission Cooldown="0">kit.humvee</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>legend</Id>
+      <DisplayName>Legend</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>3366ff</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+        <Permission Cooldown="0">effect</Permission>
+        <Permission Cooldown="0">kit.elite</Permission>
+        <Permission Cooldown="0">kit.legend</Permission>
+        <Permission Cooldown="0">kit.legendxp</Permission>
+        <Permission Cooldown="0">kit.elitexp</Permission>
+        <Permission Cooldown="0">kit.humvee</Permission>
+        <Permission Cooldown="0">kit.ural</Permission>
+        <Permission Cooldown="0">kit.uber</Permission>
+        <Permission Cooldown="0">kit.policecar</Permission>
+        <Permission Cooldown="0">kit.policeboat</Permission>
+        <Permission Cooldown="0">kit.hitman</Permission>
+        <Permission Cooldown="0">kit.lawyer</Permission>
+        <Permission Cooldown="0">kit.bodyguard</Permission>
+        <Permission Cooldown="0">kit.salesman</Permission>
+        <Permission Cooldown="0">kit.kidnapper</Permission>
+        <Permission Cooldown="900">home</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>titan</Id>
+      <DisplayName>Titan</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>cc9900</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Permissions>
+        <Permission Cooldown="0">effect</Permission>
+        <Permission Cooldown="0">kit.elite</Permission>
+        <Permission Cooldown="0">kit.legend</Permission>
+        <Permission Cooldown="0">kit.titan</Permission>
+        <Permission Cooldown="0">kit.elitexp</Permission>
+        <Permission Cooldown="0">kit.legendxp</Permission>
+        <Permission Cooldown="0">kit.titanxp</Permission>
+        <Permission Cooldown="0">kit.building</Permission>
+        <Permission Cooldown="0">kit.uber</Permission>
+        <Permission Cooldown="0">kit.policecar</Permission>
+        <Permission Cooldown="0">kit.policeboat</Permission>
+        <Permission Cooldown="0">kit.policeheli</Permission>
+        <Permission Cooldown="0">kit.druglord</Permission>
+        <Permission Cooldown="0">kit.hitman</Permission>
+        <Permission Cooldown="0">kit.lawyer</Permission>
+        <Permission Cooldown="0">kit.swat</Permission>
+        <Permission Cooldown="0">kit.salesman</Permission>
+        <Permission Cooldown="0">kit.kidnapper</Permission>
+        <Permission Cooldown="0">kit.bodyguard</Permission>
+        <Permission Cooldown="0">kit.apc</Permission>
+        <Permission Cooldown="0">kit.humvee</Permission>
+        <Permission Cooldown="0">kit.ural</Permission>
+        <Permission Cooldown="0">kit.roadster</Permission>
+        <Permission Cooldown="450">home</Permission>
+        <Permission Cooldown="86400">v</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>stafflvl1</Id>
+      <DisplayName>Jr.Staff</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>1F9B23</Color>
+      <Members />
+      <Permissions>
+        <Permission Cooldown="0">vanish</Permission>
+        <Permission Cooldown="0">thepunisher.kick</Permission>
+        <Permission Cooldown="0">tphere</Permission>
+        <Permission Cooldown="0">tp</Permission>
+        <Permission Cooldown="0">thepunisher.mute</Permission>
+        <Permission Cooldown="0">thepunisher.unmute</Permission>
+        <Permission Cooldown="0">thepunisher.reports</Permission>
+        <Permission Cooldown="0">thepunisher.warn</Permission>
+        <Permission Cooldown="0">exit</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>stafflvl2</Id>
+      <DisplayName>Staff</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>1F9B23</Color>
+      <Members />
+      <Permissions>
+        <Permission Cooldown="0">vanish</Permission>
+        <Permission Cooldown="0">thepunisher.kick</Permission>
+        <Permission Cooldown="0">tphere</Permission>
+        <Permission Cooldown="0">heal</Permission>
+        <Permission Cooldown="0">tp</Permission>
+        <Permission Cooldown="0">thepunisher.ban</Permission>
+        <Permission Cooldown="0">god</Permission>
+        <Permission Cooldown="0">thepunisher.unmute</Permission>
+        <Permission Cooldown="0">thepunisher.mute</Permission>
+        <Permission Cooldown="0">thepunisher.reports</Permission>
+        <Permission Cooldown="0">thepunisher.warn</Permission>
+        <Permission Cooldown="0">exit</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>stafflvl3</Id>
+      <DisplayName>Sr.Staff</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>1F9B23</Color>
+      <Members />
+      <Permissions>
+        <Permission Cooldown="0">vanish</Permission>
+        <Permission Cooldown="0">thepunisher.kick</Permission>
+        <Permission Cooldown="0">heal</Permission>
+        <Permission Cooldown="0">tphere</Permission>
+        <Permission Cooldown="0">tp</Permission>
+        <Permission Cooldown="0">thepunisher.ban</Permission>
+        <Permission Cooldown="0">god</Permission>
+        <Permission Cooldown="0">v</Permission>
+        <Permission Cooldown="0">i</Permission>
+        <Permission Cooldown="0">broadcast</Permission>
+        <Permission Cooldown="0">rocket.reload</Permission>
+        <Permission Cooldown="0">thepunisher.kill</Permission>
+        <Permission Cooldown="0">thepunisher.mute</Permission>
+        <Permission Cooldown="0">thepunisher.unmute</Permission>
+        <Permission Cooldown="0">thepunisher.reports</Permission>
+        <Permission Cooldown="0">thepunisher.warn</Permission>
+        <Permission Cooldown="0">exit</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>stafflvl4</Id>
+      <DisplayName>Core</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>1F9B23</Color>
+      <Members />
+      <Permissions>
+        <Permission Cooldown="0">*</Permission>
+      </Permissions>
+    </Group>
+  </Groups>
+</RocketPermissions>
